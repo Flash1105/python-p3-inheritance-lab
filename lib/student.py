@@ -7,4 +7,4 @@ class Student(User):
         self.knowledge = []
 
     def learn(self, information):
-        self.knowledge.append(knowledge_string)
+        self.knowledge.append(information)
